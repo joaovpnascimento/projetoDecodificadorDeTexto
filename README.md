@@ -12,17 +12,17 @@ Esta aplicação permite criptografar e descriptografar textos utilizando um con
 - A letra "o" é convertida para "ober"
 - A letra "u" é convertida para "ufat"
 
-### Exemplo de Criptografia
+### Exemplo de Criptografia:
 - "gato" => "gaitober"
 - "gaitober" => "gato"
 
-## Funcionalidades
+## Funcionalidades:
 - Criptografar texto: Converte um texto normal para sua versão criptografada.
 - Descriptografar texto: Converte um texto criptografado para sua versão original.
 - Funciona apenas com letras minúsculas.
 - Não aceita letras com acentos ou caracteres especiais.
 
-## Tecnologias Utilizadas
+## Tecnologias Utilizadas:
 - HTML
 - CSS
 - JavaScript
