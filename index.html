@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>DecifraMente</title>
+    <link rel="icon" href="/assets/icon.png" type="image/png" title="DecifraMente">
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="/assets/logo.png" alt="DecifraMente">
+    </header>
+
+    <main class="decodificador">
+        <div class="decodificador__aviso">
+            <img src="/assets/aviso.png" alt="Aviso">
+            <p>Apenas letras minúsculas e sem acento.</p>
+        </div>
+        <div class="decodificador__caixadetexto">
+                <textarea id="texto" autocomplete="off" autofocus="false" placeholder="Digite seu texto para criptografar ou descriptografar" spellcheck="false" required></textarea>
+                <button type="button" class="decodificador__caixadetexto__botao" disabled>Copiar</button>   
+        </div>
+        <div class="decodificador__enviar">
+            <button type="button" class="decodificador__enviar__botao" aria-label="Criptografar texto" onclick="btnEncripitar()" ><img src="/assets/criptografar.png"> Criptografar</button>
+            <button type="button" class="decodificador__enviar__botao" aria-label="Descriptografar texto" onclick="btnDesencriptar()"><img src="/assets/descriptografar.png"> Descriptografar</button>
+        </div>
+    </main>
+    <footer class="rodape">
+        <div class="rodape__texo">
+            <p>Desenvolvido com ❤️ em Natal, Brasil.</p>
+            <a href="https://joaovpnascimento.com" target="_blank">João V. P. Nascimento</a>
+        </div> 
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
